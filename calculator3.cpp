@@ -1,14 +1,15 @@
 #include <stdio.h>
+#include <ctype.h>
+
 int main() {
-    int num[100] , i = 0 ;
-    while ( i < 10 )
-    {
-        printf ( "enternum\n" ) ;
-        scanf( "%d" , &num[i] ) ;
-        i++ ;
-    }
-    printf ( "%d \n" , num ) ;
-    
-    printf ( "end" ) ;
+    char numstr [ 100 ] ;
+    float num, result = 0 ;
+    char op = '+' ;
+    int i = 0 ;
+
+    printf( " ใส่ตัวเลข และ เครืองหมายคำนวน \n " ) ;
+    scanf( "%s" , numstr ) ;
+
     return 0 ;
+    
 }
