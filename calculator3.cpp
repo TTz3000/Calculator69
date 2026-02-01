@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main() {
     int num[100] , i = 0 ;
-    printf ( "enternum\n" ) ;
-    while ( scanf( "%d" , &num[i] ) != 34 ) {
+    while ( i < 10 )
+    {
         printf ( "enternum\n" ) ;
-        scanf( "%d" , &num ) ;
-        printf ( "%d\n" , &num[i] ) ;
+        scanf( "%d" , &num[i] ) ;
         i++ ;
     }
+    printf ( "%d \n" , num ) ;
+    
     printf ( "end" ) ;
     return 0 ;
 }
