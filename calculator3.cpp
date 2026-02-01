@@ -1,14 +1,14 @@
 #include <stdio.h>
+#include <ctype.h>
+
 int main() {
-    int num[100] , i = 0 ;
-    while ( i < 10 )
-    {
-        printf ( "enternum\n" ) ;
-        scanf( "%d" , &num[i] ) ;
-        i++ ;
-    }
-    printf ( "%d \n" , num ) ;
-    
-    printf ( "end" ) ;
-    return 0 ;
+    char expr[100];
+    float num, result = 0;
+    char op = '+';
+    int i = 0;
+
+    printf("กรอกนิพจน์ ");
+    scanf("%s", expr);
+
+    return 0;
 }
