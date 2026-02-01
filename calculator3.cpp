@@ -2,14 +2,14 @@
 #include <ctype.h>
 
 int main() {
-    char expr[100];
-    float num, result = 0;
-    char op = '+';
-    int i = 0;
+    char numstr [ 100 ] ;
+    float num, result = 0 ;
+    char op = '+' ;
+    int i = 0 ;
 
-    printf("กรอกนิพจน์ ");
-    scanf("%s", expr);
+    printf( " ใส่ตัวเลข และ เครืองหมายคำนวน \n " ) ;
+    scanf( "%s" , numstr ) ;
 
-    return 0;
+    return 0 ;
     
 }
