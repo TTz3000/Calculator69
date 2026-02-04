@@ -2,8 +2,8 @@
 
 ## Group Member
 1. ธรรมรัตน์ สุริยวงศ์
-2. ปภังกร ตาบุญเรือง
-3. ธีรภัทร ทองคำฟู
+2. ปภังกร 
+3. 
 
 Test  Test 
 Are code This already Change?
